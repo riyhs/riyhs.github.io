@@ -1,0 +1,206 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+    background: #ECEBEF !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+/* =================== SIDENAV =================== */
+
+.sidenav-dashboard-admin-riyaldi {
+    height: 100vh !important;
+    position: fixed !important;
+    margin-left: -15px;
+}
+
+.sidenav-dashboard-admin-riyaldi ul {
+    margin-top: 28vh;
+}
+
+.aktif-sidenav-dashboard-admin-riyaldi {
+    border-left: 3px solid #3171D1 !important;
+    color: #000 !important;
+}
+
+.list-sidenav-dashboard-admin-riyaldi {
+    margin-bottom: 6px;
+    border-left: 3px solid #fff;
+}
+
+.link-sidenav-dashboard-admin-riyaldi {
+    padding: 16px !important;
+    width: 200px !important;
+    line-height: 3rem;
+    color: #8E8A8A;
+    font-size: 18px;
+}
+
+.link-sidenav-dashboard-admin-riyaldi:hover {
+    color: #000;
+}
+
+.list-sidenav-dashboard-admin-riyaldi i {
+    display: block;
+    float: left;
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+    margin-left: 14px;
+}
+
+.dashboard-icon-dashboard-admin-riyaldi {
+    color: #49BEB7 !important;
+    font-size: 28px !important;
+}
+
+.user-icon-dashboard-admin-riyaldi {
+    color: #F6D365 !important;
+    font-size: 28px !important;
+}
+
+.kelas-icon-dashboard-admin-riyaldi {
+    color: #23374D !important;
+    font-size: 28px !important;
+}
+
+.materi-icon-dashboard-admin-riyaldi {
+    color: #EB7070 !important;
+    font-size: 28px !important;
+}
+
+.blog-icon-dashboard-admin-riyaldi {
+    color: #5EDFFF !important;
+    font-size: 28px !important;
+}
+
+.traffic-icon-dashboard-admin-riyaldi {
+    color: #3171D1 !important;
+    font-size: 28px !important;
+}
+
+
+/* =================== AKHIR SIDENAV =================== */
+
+/* =================== HEADER =================== */
+
+.header-dashboard-admin-riyaldi {
+    background: linear-gradient(90deg, rgba(65, 83, 202, 0.9) 7.36%, rgba(8, 22, 219, 0.54) 106.21%);
+    height: 512px;
+}
+
+.no-padding-dashboard-admin-riyaldi {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.card-dashboard-admin-riyaldi {
+    position: absolute;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+
+.card-dashboard-admin-riyaldi .card-body {
+    padding: .8rem;
+}
+
+.isi-card-dashboard-admin-riyaldi {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.judul-card-dashboard-admin-riyaldi {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8E8A8A;
+}
+
+.navbar-dashboard-admin-riyaldi {
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+
+.navbar-dashboard-admin-riyaldi .row .pl-4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.navbar-dashboard-admin-riyaldi .row .pr-5 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ECEBEF;
+    text-align: right;
+}
+
+.navbar-dashboard-admin-riyaldi .row .pr-5 img {
+    width: 54.45px;
+    height: 51px;
+    margin-right: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* =================== AKHIR HEADER =================== */
+.konten-dashboard-admin-riyaldi {
+    margin-top: -20rem !important;
+}
+
+.card-konten-dashboard-admin-riyaldi {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
+.top-card-dashboard-admin-riyaldi:first-child {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.tombol-seeall-dashboard-admin {
+    padding: 3px 21px !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
+.tombol-seeall-dashboard-admin a {
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px !important;
+    margin: 0;
+    padding: 0;
+}
+
+.tombol-seeall-dashboard-admin a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.thead-light tr th {
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    color: #9EA1AD !important;
+}

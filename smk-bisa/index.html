@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>Wellcome</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- manifest -->
+    <link rel="manifest" href="https://riyhs.github.io/smk-bisa/manifest.json">
+    <meta name="theme-color" content="#0091EA" />
+</head>
+
+<body>
+    <nav class="light-blue accent-4">
+        <div class="nav-wrapper container">
+            <a href="https://riyhs.github.io/smk-bisa/" class="brand-logo">SMK BISA</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-on"><i class="material-icons">menu</i></a>
+            <ul class="topnav right hide-on-med-and-down">
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-on">
+    </ul>
+
+    <div id="body-content">
+    </div>
+
+    <footer class="page-footer blue-grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col m9 s12 rHapusPadding">
+                    <h5 class="white-text">
+                        Sedikit tentang kami
+                    </h5>
+                    <p class="grey-text text-lighten-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                        aspernatur eveniet, rem quis cumque quidem accusamus reprehenderit magni iure, pariatur
+                        deleniti! Error in vel quia voluptates blanditiis, assumenda tempora dolore!</p>
+                </div>
+                <div class="col m3 s12 rHapusPadding">
+                    <h5 class="white-text">Links</h5>
+                    <ul class="rLinksFooter"></ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                © 2019 - All rights reserved | Riyaldi
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="https://riyhs.github.io/smk-bisa/js/materialize.js"></script>
+    <script src="https://riyhs.github.io/smk-bisa/js/script.js"></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker
+                    .register("https://riyhs.github.io/smk-bisa/service-worker.js")
+                    .then(function () {
+                        console.log("Register Service Worker berhasil");
+                    })
+                    .catch(function () {
+                        console.log("Register Service Worker gagal");
+                    });
+            });
+        } else {
+            console.log("service worker belum di dukung browser ini.");
+        }
+    </script>
+</body>
+
+</html>

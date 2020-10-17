@@ -1,0 +1,104 @@
+body {
+    overflow-x: hidden;
+}
+
+.myLogo {
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: .6rem;
+}
+
+.judul {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.my-warning {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+/* HOME */
+#isi-content .container {
+    height: calc(100vh - 66px);
+    padding-top: 140px;
+    overflow-x: hidden;
+}
+
+#isi-content .container h1 {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+.gambar-tendang {
+    position: absolute;
+    right: 7vw;
+    top: 5vh;
+    width: auto;
+    height: 90vh;
+}
+
+.gambar-bola {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: -220px;
+    bottom: 15vh;
+}
+
+
+@media only screen and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #isi-content .container {
+        padding-top: 100px;
+        height: calc(100vh - 56px);
+    }
+
+    .gambar-bola {
+        top: 25vh;
+        left: 63vw;
+    }
+
+    .myLogo {
+        top: .7rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .myLogo {
+        top: .3rem !important;
+    }
+
+    .gambar-bola {
+        left: 46vw;
+        display: none;
+    }
+
+
+}
+
+/* END HOME */
+
+/* TEAM */
+.my-card {
+    max-height: 500px;
+    height: 500px;
+    padding-top: 20px;
+}
+
+.gambar-teams {
+    height: 200px;
+    width: auto !important;
+    margin: auto;
+}
+
+/* END TEAM */

@@ -1,0 +1,14 @@
+{
+    "name": "Aplikasi SMK BISA",
+    "short_name": "SMK BISA",
+    "description": "Aplikasi PWA untuk menampilkan profil SMK BISA",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#0091EA",
+    "theme_color": "#0091EA",
+    "icons": [{
+        "src": "icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }]
+}
