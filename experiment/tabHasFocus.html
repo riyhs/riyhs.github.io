@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <form action="">
+        <input type="text">
+    </form>
+
+    <h1 id="txt1"></h1>
+    <h1 id="txt2"></h1>
+
+
+    <script type="text/javascript">
+        let hasFocus = 0
+        let lostFocus = 0
+
+        document.addEventListener("visibilitychange", function () {
+            if (document.visibilityState === 'visible') {
+                hasFocus++
+
+                console.log('has focus: ' + hasFocus)
+
+                let txt = "Has Focus: " + hasFocus
+                document.getElementById('txt1').innerText = txt
+
+                let titleText = "Has: " + hasFocus + " | Lost: " + lostFocus
+                document.title = titleText
+            } else {
+                lostFocus++
+
+                console.log('lost focus: ' + lostFocus)
+
+                let txt = "Lost Focus: " + lostFocus
+                document.getElementById('txt2').innerText = txt
+
+                let titleText = "Has: " + hasFocus + " | Lost: " + lostFocus
+                document.title = titleText
+            }
+        });
+    </script>
+</body>
+
+</html>
