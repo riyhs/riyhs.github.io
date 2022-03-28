@@ -2,7 +2,14 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Yoo</title>
+    <style>
+        h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
 </head>
 
 <body>
@@ -10,9 +17,21 @@
         <input type="text">
     </form>
 
-    <h1 id="txt1"></h1>
-    <h1 id="txt2"></h1>
+    <h1 style="padding-top: 20vh;" id="txt1">Has focus: </h1>
+    <h1 id="txt2">Lost focus: </h1>
 
+    <form action="">
+        <p>1. Jelaskan reaksi kimia yang terjadi ketika merebus bakwan?</p>
+
+        <input type="radio" id="a" name="anser" value="A. Reaksi Fusi" onchange="gift()">
+        <label for="a">A. Reaksi Fusi</label><br>
+        <input type="radio" id="b" name="anser" value="B. Reaksi Fisi" onchange="gift()">
+        <label for="b">B. Reaksi Fisi</label><br>
+        <input type="radio" id="c" name="anser" value="C. Reaksi Lesti mengejutkan" onchange="gift()">
+        <label for="c">C. Reaksi Lesti mengejutkan</label><br>
+        <input type="radio" id="d" name="anser" value="D. Reaksi Pitagoras bikin geger" onchange="gift()">
+        <label for="d">D. Reaksi Pitagoras bikin geger</label>
+    </form>
 
     <script type="text/javascript">
         let hasFocus = 0
@@ -41,6 +60,10 @@
                 document.title = titleText
             }
         });
+
+        function gift() {
+            window.alert("Awokwokwok goblok sia >.<");
+        }
     </script>
 </body>
 
