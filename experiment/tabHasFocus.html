@@ -7,20 +7,32 @@
         h1 {
             width: 100%;
             text-align: center;
-            font-size: 50px;
+            font-size: 60px;
+        }
+
+        p,
+        label,
+        input {
+            font-size: 38px !important;
+        }
+
+        input[type="radio"] {
+
+            -ms-transform: scale(3);
+            /* IE 9 */
+            -webkit-transform: scale(3);
+            /* Chrome, Safari, Opera */
+            transform: scale(3);
+            margin-right: 28px;
         }
     </style>
 </head>
 
 <body>
-    <form action="">
-        <input type="text">
-    </form>
-
-    <h1 style="padding-top: 20vh;" id="txt1">Has focus: </h1>
+    <h1 style="padding-top: 15vh;" id="txt1">Has focus: </h1>
     <h1 id="txt2">Lost focus: </h1>
 
-    <form action="">
+    <form action="" style="padding-left: 24px; padding-top: 50px;">
         <p>1. Jelaskan reaksi kimia yang terjadi ketika merebus bakwan?</p>
 
         <input type="radio" id="a" name="anser" value="A. Reaksi Fusi" onchange="gift()">
